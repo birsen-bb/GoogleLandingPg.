@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ul{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;}
+    
+li{
+    display: inline;
+    margin: 10px;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    cursor: pointer;
+    color: blue;
+}
+ 
+#btn-1{
+    padding: 5px;
+    background-color:#4285F4;
+    border-radius: 5px;
+    border-style: none;
+    width: 5rem;
+    color: white;
+}
+
+#btn-1:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+main{
+    display: inline-block;
+}
+
+#googlelogo{
+    display: block;
+    clear: both;
+   margin: auto;
+   margin-top: 250px;
+}
+
+form{
+    background-image: url(./images/magnifying_glass.jpg);
+}
+
+#input1{
+    position: static;
+    margin-left: 30%;
+    display: inline-block;
+    height: 27px;
+    width: 555px;
+    border: 2px solid rgba(0, 0, 0, 0.133);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#mnfglass{
+    width: 25px;
+    height: 27px;  
+}
+
+#input2{  
+display: inline-block;
+  position: absolute;
+    width: 30rem;
+    padding: 8px;
+  border: none;     
+}
+
+#microphone{
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+.btn-2{
+    display:inline;
+    margin-left: 40rem;
+    padding: 10px;
+    border-style: none;
+    width: 7rem;
+    margin-top: 20px;
+}
+
+.btn-3{
+    padding: 10px;
+    border-style: none;
+    margin-left: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+#language{
+    color: blue;
+}
+
+p a:hover{
+    cursor: pointer;
+}
